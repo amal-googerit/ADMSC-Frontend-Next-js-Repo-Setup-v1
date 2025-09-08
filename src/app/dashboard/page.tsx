@@ -37,6 +37,18 @@ const DashboardPage = () => {
           <p className="metric-value">3.2%</p>
           <p className="metric-change">-0.5% from last week</p>
         </div>
+
+        <div className="metric-card">
+          <h2>Conversion Rate</h2>
+          <p className="metric-value">3.2%</p>
+          <p className="metric-change">-0.5% from last week</p>
+        </div>
+
+        <div className="metric-card">
+          <h2>Conversion Rate</h2>
+          <p className="metric-value">3.2%</p>
+          <p className="metric-change">-0.5% from last week</p>
+        </div>
       </section>
     </article>
   );
