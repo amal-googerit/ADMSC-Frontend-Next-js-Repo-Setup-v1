@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -13,6 +14,15 @@ const HomePage = () => {
         <p>
           Your comprehensive management solution for advanced data analytics and client management.
         </p>
+      </section>
+
+      <section className="w-full flex justify-center my-6">
+        <Link
+          href="/tailwind"
+          className="text-white px-4 sm:px-8 py-2 sm:py-3 bg-sky-700 hover:bg-sky-800 rounded-lg"
+        >
+          Test JSON
+        </Link>
       </section>
 
       <section className="features">
